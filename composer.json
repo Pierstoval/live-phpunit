@@ -1,0 +1,22 @@
+{
+    "name": "pierstoval/live-phpunit",
+    "description": "Just a showcase project to explain unit testing",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alex Rock Ancelet",
+            "email": "pierstoval@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pierstoval\\Live\\Phpunit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Pierstoval\\Live\\Phpunit\\": "tests/"
+        }
+    },
+    "require": {}
+}
